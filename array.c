@@ -16,13 +16,10 @@ void main()
 
     printf("Enter the number which you want to search:");
     scanf("%d",&num);
-
+ for(i=0; i<10; i++){
     if(num == a[i]){
        printf("Number is present.");
     }
-
-    else{
-        printf("Number is not present.");
-    }
-    
+ }
+ printf("Number is not present.");
 }
